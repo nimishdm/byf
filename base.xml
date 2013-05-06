@@ -365,8 +365,8 @@ function tabs(tab){
 		case "main":
 		maintabtext = document.getElementById('maintab').innerHTML;
 		if (maintabtext=='Main') {changediv('maintab','Reload');show_gameboard();} else {
-		changediv('gameboard','<center><br><br><br><img border="0" src="http://socialitapp.com/1/ajax_big.gif" width="32" height="32"><br><font size="1" face="Verdana">Loading...</font><br><br><br><br><br><br><br><br><br></center>');
-		changediv('history','<img border="0" src="http://socialitapp.com/1/ajax_big.gif" width="32" height="32"><br><font size="1" face="Verdana">Loading...</font>');
+		changediv('gameboard','<center><br><br><br><img border="0" src="https://lh5.googleusercontent.com/-r78kbk7zzus/UYfLpLlHwQI/AAAAAAAAAYg/kzrZuTxWKYA/s24/ajax-loader.gif" width="32" height="32"><br><font size="1" face="Verdana">Loading...</font><br><br><br><br><br><br><br><br><br></center>');
+		changediv('history','<img border="0" src="https://lh5.googleusercontent.com/-r78kbk7zzus/UYfLpLlHwQI/AAAAAAAAAYg/kzrZuTxWKYA/s24/ajax-loader.gif" width="32" height="32"><br><font size="1" face="Verdana">Loading...</font>');
 		get_script ('http://socialitapp.com/buy/reload.php?ex='+new_players[0][0]);
 		get_script ('history');
 
@@ -554,7 +554,7 @@ function adjustheight(){
 
 function transaction(id){
 	get_script ('http://socialitapp.com/buy/transaction.php?me='+owner_id+'&id='+id+'&md5='+md5);
-	changediv('frame','<center><br><br><br><br><br><img border="0" src="http://socialitapp.com/1/ajax_big.gif" width="32" height="32"><br>Processing</center>');
+	changediv('frame','<center><br><br><br><br><br><img border="0" src="https://lh5.googleusercontent.com/-r78kbk7zzus/UYfLpLlHwQI/AAAAAAAAAYg/kzrZuTxWKYA/s24/ajax-loader.gif" width="32" height="32"><br>Processing</center>');
 };
 
 function transaction_result(id,result,pic){
@@ -595,9 +595,9 @@ gadgets.util.registerOnLoadHandler(init);
 </center>
 </div>
 <div id="content" style="height:auto; width:auto;">
-<div id="left_div" style="float:left;width:64%;"><br><br><br><br><br><br><br><br><br><center><img border="0" src="http://socialitapp.com/1/ajax_big.gif" width="32" height="32"><br>
+<div id="left_div" style="float:left;width:64%;"><br><br><br><br><br><br><br><br><br><center><img border="0" src="https://lh5.googleusercontent.com/-r78kbk7zzus/UYfLpLlHwQI/AAAAAAAAAYg/kzrZuTxWKYA/s24/ajax-loader.gif" width="32" height="32"><br>
 <font size="1" face="Verdana">Loading...</font></div><div id="right_div" class="blue_box" style="padding-top:10px;padding-bottom:10px;float:right;width:35%;"> <center><div id="withchat">Click here for <a href="javascript:void(0)" onclick="showchat();">user chatroom</a></div>
-<div id="withoutchat"><div style="float:left;width:50%" id="prev"></div><div style="float:left;width:49%" id="next"></div><div id="history"><img border="0" src="http://socialitapp.com/1/ajax_big.gif" width="32" height="32"><br>
+<div id="withoutchat"><div style="float:left;width:50%" id="prev"></div><div style="float:left;width:49%" id="next"></div><div id="history"><img border="0" src="https://lh5.googleusercontent.com/-r78kbk7zzus/UYfLpLlHwQI/AAAAAAAAAYg/kzrZuTxWKYA/s24/ajax-loader.gif" width="32" height="32"><br>
 <font size="1" face="Verdana">Loading...</font></div></div>
 <div style="height:auto;width:auto;">
 </div>
