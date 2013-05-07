@@ -3,16 +3,16 @@
 <Module>
     
 <ModulePrefs
-    title="__MSG_title__"
+    title="Buy your friends Tycoons"
     description="__MSG_desc__"
-    author="Divyansh Sharma"
+    author="Nimish David Mathew"
     author_email="nimishdavid@gmail.com"
-    author_link="http://www.Dotcomdhanda.com"
-    title_url="http://www.Dotcomdhanda.com"
-    author_location="Delhi"
+    author_link="http://nimishdm.webs.com"
+    title_url="http://nimishdm.webs.com"
+    author_location="Kerala"
     author_affiliation="India"
     screenshot="https://lh4.googleusercontent.com/-qBxdbLNVLWQ/UYc9mYcvVCI/AAAAAAAAAYI/bWqF8EhPNus/w1055-h306-p-o/Buy+your+friends.jpg"
-    thumbnail="https://lh3.googleusercontent.com/-qBxdbLNVLWQ/UYc9mYcvVCI/AAAAAAAAAYI/bWqF8EhPNus/w300-h87/Buy+your+friends.jpg"
+    thumbnail="https://lh6.googleusercontent.com/-yCp49DjnPtM/UYiId_B1bHI/AAAAAAAAAYw/9itqCKo47Y8/w128-h111/ln.jpg"
 
   >
 <Locale lang="pt" messages="http://socialitapp.com/byf/lang/pt_ALL.xml"/>
